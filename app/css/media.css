@@ -1,0 +1,126 @@
+@media(max-width: 1150px){
+        .meet__item-inner{
+            flex-wrap: wrap;
+        }
+        .meet__item{
+            width: 50%;
+            margin-bottom: 30px;
+        }
+        .our__mix-box{
+            flex-wrap: wrap;
+        }
+        .our__item{
+            width: 100%;
+            
+        }
+        .people__item{
+            width: 100%;
+        }
+    }
+
+
+@media(max-width: 1000px){
+    .header__text{
+        font-size: 34px;
+    }
+    .header__menu-btn{
+        display: block;
+        cursor: pointer;
+    }
+    .header__menu ul{
+        display: none;
+        position: absolute;
+        top: 94px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        border-bottom: 2px solid #fff;
+    }
+    .header__menu li{
+        text-align: center;
+    }
+    .header__menu li + li{
+        margin-left: 0;
+    }
+    .header__text{
+        margin: 160px auto 60px;
+    }
+    .header__menu a{
+        display: block;
+    }
+}
+@media(max-width: 950px){
+    .services__item-inner{
+        flex-wrap: wrap;
+    }
+    .services__item{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .skills__item-inner{
+        flex-wrap: wrap;
+    }
+    .skills__item{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .form{
+
+    }
+    .your__name{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 900px){
+    .header__text{
+        font-size: 28px;
+    }
+    
+@media(max-width: 800px){
+    .meet__item{
+        width: 100%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #000;
+    }
+
+}
+@media(max-width: 750px){
+    .header__text{
+        font-size: 25px;
+    }
+    .services__text{
+        max-width: 311px;
+        margin: 0 auto;
+    }
+    .meet__text{
+        max-width: 400px;
+        margin: 0 auto 30px;
+    }
+}
+@media(max-width: 600px){
+    .skills__text{
+        max-width: 470px;
+    }
+    }
+
+@media(max-width: 550px){
+    .services__item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .skills__item{
+        width: 100%;
+    }
+    .our__mix-btn{
+            flex-wrap: wrap;
+            width: 25%;
+            margin-bottom: 30px;
+    }
+    .our__mix-btn button{
+        margin: 0 auto 15px;
+    }
+    .our__mix-btn button + button{
+        margin-left: 0;
+    }
